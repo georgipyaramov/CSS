@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #595959;
+    color: #DED89B;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+td{
+    padding: 5px; 
+}
+
+
+tr>:first-child{
+    color: white;
+    font-style: italic;
+    vertical-align: top;
+}
+
+td[colspan="2"]{
+    font-size: 1.4em;
+    color: #B6BEC0;
+    font-style: normal;
+}
+
+tr:last-of-type td:last-of-type{
+    color: #C96536;
+}
+
+#circle{
+    border-radius: 50%;
+    background-color: #71B47A;
+}
+
+span.alert{
+    color: red;
+}
+
+span.grey{
+    color: #B6BEC0;
+}

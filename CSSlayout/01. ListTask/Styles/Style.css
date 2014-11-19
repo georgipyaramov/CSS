@@ -1,0 +1,28 @@
+﻿#worldwrap {
+  margin: 0;
+  padding: 0;
+}
+#worldwrap > ul {
+  padding-left: 0 !important;
+}
+#worldwrap li {
+  list-style-type: none;
+  list-style: none;
+}
+#worldwrap ul {
+  padding-left: 10px;
+}
+#worldwrap ul ul {
+  display: none;
+}
+#worldwrap li:hover > ul {
+  display: block;
+}
+#worldwrap li:hover > ul span {
+  color: gray;
+}
+#worldwrap li:hover span:hover {
+  text-decoration: underline;
+  color: black;
+}
+/*# sourceMappingURL=Style.css.map */

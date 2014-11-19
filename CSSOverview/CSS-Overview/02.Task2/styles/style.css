@@ -1,0 +1,37 @@
+﻿body {
+}
+
+table { 
+    border: 1px solid #C2C0A6; 
+    border-collapse: collapse;
+    vertical-align: central;
+
+}
+
+table td, th { 
+    border-left: 1px solid #C2C0A6;
+    padding: 5px; 
+}
+
+th{
+    background-color: #55B806;
+    color: white;
+    font-weight: normal;
+    text-align: left;
+}
+
+tr:nth-child(2n+1){
+    background-color: #ECECD8;
+}
+
+span.germany:before{
+    content: url(http://stkirov.files.wordpress.com/2012/12/germany.png);
+}
+
+span.mexico:before{
+    content: url(http://stkirov.files.wordpress.com/2012/12/mexico.png);
+}
+
+span.uk:before{
+    content: url(http://stkirov.files.wordpress.com/2012/12/uk.png);
+}
